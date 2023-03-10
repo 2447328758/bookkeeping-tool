@@ -7,12 +7,12 @@ python = 3.10.x
 
 使用下面的代码安装依赖
 
-'''shell
+```shell
 pip install -r requirements.txt
-'''
+```
 
 ## 启动
 
-'''shell
+```shell
 python qtui.py
-'''
+```
