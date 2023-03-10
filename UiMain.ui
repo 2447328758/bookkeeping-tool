@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>记账工具</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbway">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>支付平台：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="srway">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+    <property name="duplicatesEnabled">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>ALIPAY</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>WECHAT</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="lbmoney">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>金额：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbsrc">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>资金来源/去路：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="srsrc">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+    <property name="duplicatesEnabled">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string>工商银行卡</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>招商银行卡</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>建设银行卡</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>微信零钱</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>支付宝余额宝</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="lbpurpose">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用途：</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="srpur">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>210</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbid">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>id：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="srid">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>170</y>
+      <width>271</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="srsubmit">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>340</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbdate">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>53</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>当前日期：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbdateshow">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="srdatemodify">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>75</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>修改日期</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="srmoney">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>99999999.000000000000000</double>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>407</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
